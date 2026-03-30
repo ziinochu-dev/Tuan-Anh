@@ -74,7 +74,7 @@ img:hover {
 </audio>
 
 <div class="container">
-    <h2 id="question">Bạn Tuấn Anh có cảm thấy mình đẹp trai nhưng bị khùng không?</h2>
+    <h2 id="question">Bạn Tuấn Anh có cảm thấy mình đẹp trai nhưng bị khùng không (°ロ°)?</h2>
 
     <!-- FIX LỖI Ở ĐÂY -->
     <img id="image" src="tuananh.jpg">
@@ -100,7 +100,7 @@ function start() {
     document.getElementById("music").play();
 
     document.getElementById("question").innerText =
-    "Không phải m ko đủ tốt, chỉ là người kia không biết trân trọng thôi";
+    "Không phải m ko đủ tốt, chỉ là người kia không biết trân trọng thôi 😎";
     document.getElementById("image").src = "meme.gif";
 
     document.getElementById("buttons").innerHTML =
@@ -110,7 +110,7 @@ function start() {
 
 function nextStep() {
     document.getElementById("question").innerText =
-    "Có người vẫn quan tâm m đó, buồn thì buồn, nhưng đừng buồn quá lâu nha, ăn uốn đúng giờ vào, ngủ sớm nữa :grin:";
+    "Có người vẫn quan tâm m đó, buồn thì buồn, nhưng đừng buồn quá lâu nha, ăn uốn đúng giờ vào, ngủ sớm nữa 😁";
     document.getElementById("image").src = "cute.jpg";
 
     document.getElementById("buttons").innerHTML = '';

@@ -100,7 +100,7 @@ function start() {
     document.getElementById("music").play();
 
     document.getElementById("question").innerText =
-    "Bạn không tệ, chỉ là người kia không biết trân trọng thôi";
+    "Không phải m ko đủ tốt, chỉ là người kia không biết trân trọng thôi";
     document.getElementById("image").src = "meme.gif";
 
     document.getElementById("buttons").innerHTML =
@@ -110,7 +110,7 @@ function start() {
 
 function nextStep() {
     document.getElementById("question").innerText =
-    "Có người vẫn quan tâm bạn đó, cố chăm sóc bản thân thật tốt nhee";
+    "Có người vẫn quan tâm m đó, buồn thì buồn, nhưng đừng buồn quá lâu nha, ăn uốn đúng giờ vào, ngủ sớm nữa :grin:";
     document.getElementById("image").src = "cute.jpg";
 
     document.getElementById("buttons").innerHTML = '';
